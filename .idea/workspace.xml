@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ZombieGame:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92672c9-428b-498f-9038-0f6c50441ca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZombieGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/AbstractGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Sprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Window.java" afterDir="false" />
+    <list default="true" id="f92672c9-428b-498f-9038-0f6c50441ca6" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/CircleCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/AbstractGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/ObstacleGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/ObstacleMover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Physics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameEngine/PolygonCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprites/dva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprites/editorBackGround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprites/smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Entities/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Entities/SceneSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Entities/Shaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Entities/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/LevelEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/MainGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/SceneSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/Scenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/Scenes/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZombieGameComponents/ZombieGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/AbstractGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/EngineComponents/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +56,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.1.1/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="1h37td23" />
@@ -45,14 +79,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/ZombieGame/src/Sprites&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ZombieGameComponents" />
+      <recent name="GameEngine" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ZombieGame\src\Sprites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ZombieGame\src\Sprites" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameDriver">
     <configuration name="GameDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GameDriver" />
       <module name="ZombieGame" />
@@ -60,9 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameEngine.Physics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameEngine.Physics" />
+      <module name="ZombieGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GameEngine.EngineComponents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameEngine.test" />
+      <module name="ZombieGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GameEngine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameDriver" />
+        <item itemvalue="Application.GameEngine.Physics" />
       </list>
     </recent_temporary>
   </component>
@@ -75,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669648034216</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1669756500692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669756500692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,20 +176,59 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GameEngine/Engine.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/GameEngine/EngineComponents/Engine.java</url>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GameBoard.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Entities/Shaco.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Entities/Shaco.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GameEngine/Line.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Entities/Zombie.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Entities/Zombie.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Scenes/LevelEditor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ZombieGameComponents/Entities/Player.java</url>
+          <line>17</line>
+          <properties field="shaco" class="ZombieGameComponents.Entities.Player" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

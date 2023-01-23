@@ -1,4 +1,4 @@
-package GameEngine;
+package GameEngine.EngineComponents;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,7 +9,7 @@ public class Window {
 
     private JFrame frame;
     public BufferedImage image;
-    private Canvas canvas;
+    public Canvas canvas;
     private BufferStrategy bufferStrategy;
     private Graphics graphics;
 
@@ -22,7 +22,7 @@ public class Window {
             canvas.setMinimumSize(dim);
             canvas.setMaximumSize(dim);
 
-            frame = new JFrame("ZombieGame");
+            frame = new JFrame("ZombieGameComponents.ZombieGame");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLayout(new BorderLayout());
             frame.add(canvas, BorderLayout.CENTER);
@@ -36,7 +36,7 @@ public class Window {
             graphics = bufferStrategy.getDrawGraphics();
     }
 
-    public void show(){
+    public void render(){
         graphics.drawImage(image, 0,0, canvas.getWidth(), canvas.getHeight(), null);
         bufferStrategy.show();
     }

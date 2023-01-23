@@ -1,8 +1,8 @@
-import GameEngine.Engine;
+import GameEngine.EngineComponents.Engine;
+import ZombieGameComponents.ZombieGame;
 
 public class GameDriver {
     public static void main(String[] args) {
-        GameBoard game = new GameBoard();
-        Engine engine = new Engine(game);
+        Engine engine = new Engine(new ZombieGame());
     }
 }
